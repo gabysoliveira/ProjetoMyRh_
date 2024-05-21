@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoMyRh.API", "ProjetoMyRh.API\ProjetoMyRh.API.csproj", "{01FF8DC5-0C01-4F2B-AF28-8511E4BB4341}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoMyRh.API", "ProjetoMyRh.API\ProjetoMyRh.API.csproj", "{01FF8DC5-0C01-4F2B-AF28-8511E4BB4341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoMyRh.ClienteAPI", "ProjetoMyRh.ClienteAPI\ProjetoMyRh.ClienteAPI.csproj", "{1FE15A29-1EC7-4B80-8E4D-77DD515C639B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{01FF8DC5-0C01-4F2B-AF28-8511E4BB4341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01FF8DC5-0C01-4F2B-AF28-8511E4BB4341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01FF8DC5-0C01-4F2B-AF28-8511E4BB4341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE15A29-1EC7-4B80-8E4D-77DD515C639B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE15A29-1EC7-4B80-8E4D-77DD515C639B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE15A29-1EC7-4B80-8E4D-77DD515C639B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE15A29-1EC7-4B80-8E4D-77DD515C639B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
