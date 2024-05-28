@@ -1,6 +1,6 @@
 ﻿namespace ProjetoMyRh.ClienteAPI.Models
 {
-    public class Candidato
+    public class CandidatoClient
     {
         public string? Cpf { get; set; }
         public string? Nome { get; set; }

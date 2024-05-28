@@ -39,7 +39,7 @@ namespace ProjetoMyRh.ClienteAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> IncluirCandidato(Candidato candidato)
+        public async Task<IActionResult> IncluirCandidato(CandidatoClient candidato)
         {
             try
             {

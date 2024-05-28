@@ -20,6 +20,7 @@ builder.Services.AddSwaggerGen();
 //Habilitando os services
 builder.Services.AddScoped<CandidatosService>();
 builder.Services.AddScoped<AreasService>();
+builder.Services.AddScoped<InscricoesService>();
 
 
 var app = builder.Build();

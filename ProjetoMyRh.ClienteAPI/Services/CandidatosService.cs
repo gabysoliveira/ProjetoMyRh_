@@ -18,13 +18,13 @@ namespace ProjetoMyRh.ClienteAPI.Services
             httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        public async Task<IEnumerable<Candidato>> ListarCAndidatosAsync()
+        public async Task<IEnumerable<CandidatoClient>> ListarCAndidatosAsync()
         {
             try
             {
                 var response = await httpClient.GetAsync("api/candidatosapi");
                 if (response.IsSuccessStatusCode) {
-                    var lista = await response.Content.ReadFromJsonAsync<Candidato[]>();
+                    var lista = await response.Content.ReadFromJsonAsync<CandidatoClient[]>();
                     return lista!.ToList();
                 } else {
                     throw new Exception("Não foi possível obter a lista de candidatos");
@@ -37,7 +37,7 @@ namespace ProjetoMyRh.ClienteAPI.Services
             }
         }
 
-        public async Task IncluirCandidatoAsync(Candidato candidato) 
+        public async Task IncluirCandidatoAsync(CandidatoClient candidato) 
         {
             try
             {
